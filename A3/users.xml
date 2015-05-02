@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <pre>&lt;?xml version=&quot;1.0&quot; standalone=&quot;no&quot; ?&gt;
+&lt;!DOCTYPE users SYSTEM &quot;users.dtd&quot;&gt;
+&lt;users&gt;
+	
+	&lt;user uid=&quot;u1&quot; dob=&quot;27/Mar&quot; email=&quot;u1@u1.com&quot;&gt;
+		&lt;surname&gt;sur1&lt;/surname&gt;
+		&lt;givennames&gt;given1&lt;/givennames&gt;
+		&lt;follows who=&quot;u2&quot;/&gt;
+		&lt;playlists&gt;
+			&lt;playlist pid=&quot;p1&quot; created=&quot;1&quot; playcount=&quot;10&quot;/&gt;
+			&lt;playlist pid=&quot;p2&quot; created=&quot;1&quot; playcount=&quot;3&quot;/&gt;
+			&lt;playlist pid=&quot;p3&quot; created=&quot;1&quot; playcount=&quot;10&quot;/&gt;
+			&lt;playlist pid=&quot;p4&quot; created=&quot;1&quot; playcount=&quot;8&quot;/&gt;
+			&lt;playlist pid=&quot;p5&quot; created=&quot;1&quot; playcount=&quot;10&quot;/&gt;
+		&lt;/playlists&gt;
+	&lt;/user&gt;
+
+	&lt;user uid=&quot;u2&quot; dob=&quot;1/Mar&quot; email=&quot;u2@u2.com&quot;&gt;
+		&lt;surname&gt;sur2&lt;/surname&gt;
+		&lt;givennames&gt;given2&lt;/givennames&gt;
+		&lt;follows who=&quot;u1 u3 u4&quot;/&gt;
+		&lt;playlists&gt;
+			&lt;playlist pid=&quot;p2&quot; created=&quot;1&quot; playcount=&quot;1&quot;/&gt;
+			&lt;playlist pid=&quot;p1&quot; created=&quot;1&quot; playcount=&quot;1&quot;/&gt;
+			&lt;playlist pid=&quot;p3&quot; created=&quot;1&quot; playcount=&quot;1&quot;/&gt;
+			&lt;playlist pid=&quot;p4&quot; created=&quot;1&quot; playcount=&quot;4&quot;/&gt;
+			&lt;playlist pid=&quot;p5&quot; created=&quot;1&quot; playcount=&quot;6&quot;/&gt;
+		&lt;/playlists&gt;
+	&lt;/user&gt;
+
+
+	&lt;user uid=&quot;u3&quot; dob=&quot;1/Jan&quot; email=&quot;u3@u3.com&quot;&gt;
+		&lt;surname&gt;sur3&lt;/surname&gt;
+		&lt;givennames&gt;given3&lt;/givennames&gt;
+		&lt;follows who=&quot;u1&quot;/&gt;
+		&lt;playlists&gt;
+			&lt;playlist pid=&quot;p2&quot; created=&quot;1&quot; playcount=&quot;1&quot;/&gt;
+		&lt;/playlists&gt;
+	&lt;/user&gt;
+
+
+	&lt;user uid=&quot;u4&quot; dob=&quot;14/Apr&quot; email=&quot;u4@u4.com&quot;&gt;
+		&lt;surname&gt;sur4&lt;/surname&gt;
+		&lt;givennames&gt;given4&lt;/givennames&gt;
+		&lt;follows who=&quot;u1&quot;/&gt;
+		&lt;playlists&gt;
+			&lt;playlist pid=&quot;p1&quot; created=&quot;1&quot; playcount=&quot;3&quot;/&gt;
+			&lt;playlist pid=&quot;p2&quot; created=&quot;1&quot; playcount=&quot;5&quot;/&gt;
+		&lt;/playlists&gt;
+	&lt;/user&gt;
+
+
+	&lt;user uid=&quot;u5&quot; dob=&quot;22/Sep&quot; email=&quot;u5@u5.com&quot;&gt;
+		&lt;surname&gt;sur5&lt;/surname&gt;
+		&lt;givennames&gt;given5&lt;/givennames&gt;
+		&lt;follows who=&quot;u1&quot;/&gt;
+	&lt;/user&gt;
+&lt;/users&gt;</pre>
+</body>
+</html>

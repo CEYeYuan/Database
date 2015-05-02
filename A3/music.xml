@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <pre>&lt;?xml version=&quot;1.0&quot; standalone=&quot;no&quot; ?&gt;
+&lt;!DOCTYPE music SYSTEM &quot;music.dtd&quot; &gt;
+&lt;music&gt;
+	&lt;songs&gt;
+		&lt;song sid=&quot;s1&quot; time=&quot;Mar&quot; year=&quot;2000&quot;&gt;
+			&lt;title&gt;song1&lt;/title&gt;
+			&lt;artist&gt;artist1&lt;/artist&gt;
+			&lt;composers&gt;
+				&lt;composer&gt;composer1&lt;/composer&gt;
+				&lt;composer&gt;composer2&lt;/composer&gt;
+			&lt;/composers&gt;
+			&lt;album&gt;album1&lt;/album&gt;
+		&lt;/song&gt; 
+
+		&lt;song sid=&quot;s2&quot; time=&quot;Jan&quot; year=&quot;1998&quot;&gt;
+			&lt;title&gt;song2&lt;/title&gt;
+			&lt;artist&gt;artist2&lt;/artist&gt;
+			&lt;composers&gt;
+				&lt;composer&gt;composer1&lt;/composer&gt;
+			&lt;/composers&gt;
+		&lt;/song&gt; 
+
+		&lt;song sid=&quot;s3&quot; time=&quot;Oct&quot; year=&quot;2013&quot;&gt;
+			&lt;title&gt;song3&lt;/title&gt;
+			&lt;artist&gt;artist2&lt;/artist&gt;
+			&lt;composers&gt;
+				&lt;composer&gt;composer2&lt;/composer&gt;
+			&lt;/composers&gt;
+		&lt;/song&gt; 
+
+		&lt;song sid=&quot;s4&quot; time=&quot;Dec&quot; year=&quot;2008&quot;&gt;
+			&lt;title&gt;song4&lt;/title&gt;
+			&lt;artist&gt;artist3&lt;/artist&gt;
+			&lt;composers&gt;
+				&lt;composer&gt;composer2&lt;/composer&gt;
+				&lt;composer&gt;composer3&lt;/composer&gt;
+			&lt;/composers&gt;
+		&lt;/song&gt; 
+
+
+	&lt;/songs&gt;
+	&lt;playlists&gt;
+		&lt;playlist pid=&quot;p1&quot; creator=&quot;u1&quot;&gt;
+			&lt;track sid=&quot;s1&quot;/&gt;
+		&lt;/playlist&gt;
+
+		&lt;playlist pid=&quot;p2&quot; creator=&quot;u1&quot;&gt;
+			&lt;track sid=&quot;s1&quot;/&gt;
+			&lt;track sid=&quot;s2&quot;/&gt;
+		&lt;/playlist&gt;
+
+		&lt;playlist pid=&quot;p3&quot; &gt;
+			&lt;track sid=&quot;s3&quot;/&gt;
+			&lt;track sid=&quot;s2&quot;/&gt;
+		&lt;/playlist&gt;
+
+		&lt;playlist pid=&quot;p4&quot; &gt;
+			&lt;track sid=&quot;s2&quot;/&gt;
+		&lt;/playlist&gt;
+
+		&lt;playlist pid=&quot;p5&quot; &gt;
+			&lt;track sid=&quot;s2&quot;/&gt;
+		&lt;/playlist&gt;
+
+		&lt;playlist pid=&quot;p6&quot; &gt;
+			&lt;track sid=&quot;s1&quot;/&gt;
+			&lt;track sid=&quot;s2&quot;/&gt;
+			&lt;track sid=&quot;s3&quot;/&gt;
+		&lt;/playlist&gt;
+	&lt;/playlists&gt;
+&lt;/music&gt;</pre>
+</body>
+</html>
